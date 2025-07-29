@@ -11,7 +11,7 @@ class Piece:
     def set_texture(self):
         pass
 
-class Pown(Piece):
+class Pawn(Piece):
 
     def __init__(self, color):
         self.dir = -1 if color == 'white' else 1
@@ -25,9 +25,6 @@ class Bishop(Piece):
     def __init__(self,color):
         super().__init__('bishop', color, 3.001)
 
-class Bishop(Piece):
-    def __init__(self,color):
-        super().__init__('bishop', color, 3.001)
 
 class Rook(Piece):
     def __init__(self,color):
