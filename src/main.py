@@ -54,7 +54,7 @@ class Main:
 
             # quite application
              elif event.type == pygame.QUIT:
-                    pygame.quit()
+                    pygame.quit() 
                     sys.exit()
             
 
