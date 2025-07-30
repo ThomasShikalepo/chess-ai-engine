@@ -10,7 +10,7 @@ class Board:
         self._add_pieces('black')    # Add black pieces to board
 
     def _create(self):
-        for row in range(Rows):
+        for row in range(ROWS):
             for col in range(COLS):
                 self.square[row][col] = Square(row,col)
 
